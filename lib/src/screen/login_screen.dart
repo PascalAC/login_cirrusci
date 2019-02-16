@@ -25,6 +25,7 @@ class LoginScreen extends StatelessWidget {
       stream: bloc.email,
       builder: (context, snapshot) {
         return TextField(
+          key: Key('emailInput'),
           keyboardType: TextInputType.emailAddress,
           decoration: InputDecoration(
             labelText: 'Email Address',
@@ -42,6 +43,7 @@ class LoginScreen extends StatelessWidget {
       stream: bloc.password,
       builder: (context, snapshot) {
         return TextField(
+          key: Key('passwordInput'),
           decoration: InputDecoration(
             labelText: 'Password',
             hintText: 'Enter your password',
