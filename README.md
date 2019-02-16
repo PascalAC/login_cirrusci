@@ -1,4 +1,4 @@
-# login_cirrusci
+# CirrusCI on a simple Login screen
 
 [![Build Status](https://api.cirrus-ci.com/github/PascalAC/login_cirrusci.svg)](https://cirrus-ci.com/github/PascalAC/login_cirrusci)
 
