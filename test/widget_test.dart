@@ -68,6 +68,6 @@ void main() {
     await tester.enterText(emailWidget, '12345678');
     await tester.pump();
 
-    expect(find.text(passwordErrorText), findsOneWidget);
+    expect(find.text(passwordErrorText), findsNothing);
   });
 }
